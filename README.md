@@ -11,7 +11,7 @@
 ## <a id="projeto">💻 Projeto</a>
 
 <p align="justify">
-  Olá, esse projeto foi feito para substituir o meu portfolio antigo - o qual pode ser visto no GItHub pages clicando <a href="https://1matheusflorencio.github.io/Pessoal-Portfolio-Antigo/" target="_blank">aqui</a> e você também pode olhar o projeto completo aqui: <a href="https://github.com/1matheusflorencio/Pessoal-Portfolio-Antigo" target="_blank">Github</a><br>
+  Olá, esse projeto foi feito para substituir o meu portfolio antigo - o qual pode ser visto no GitHub pages clicando <a href="https://1matheusflorencio.github.io/Pessoal-Portfolio-Antigo/" target="_blank">aqui</a> e você também pode olhar o projeto completo aqui: <a href="https://github.com/1matheusflorencio/Pessoal-Portfolio-Antigo" target="_blank">Github</a>.<br>
 </p>
 
 ## <a id="tecnologias">🚀 Tecnologias</a>
@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## <a id="layout">🔖 Layout</a>
 
-Em 🏗👷‍♂️ - De uma olhada em como ficou a página no <a href="https://1matheusflorencio.github.io/Pessoal-Portfolio/" target="_blank">Github</a> <br>
+Em 🏗👷‍♂️ - De uma olhada em como está ficando a página no <a href="https://1matheusflorencio.github.io/Pessoal-Portfolio/" target="_blank">Github</a>.<br>
 
 Layout:
 <div align="center">
