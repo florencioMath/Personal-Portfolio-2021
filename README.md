@@ -28,49 +28,78 @@ Em 🏗👷‍♂️ - De uma olhada em como está ficando a página no <a href=
 
 Layout:
 <div align="center">
-<table>
+<table style>
   <tr>
     <td align="center">
+      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Mobile%20-%2001.png?raw=true" alt="Home" /><br>
+        <sub>
+         Mobile - Home
+        </sub>
+    </td>
+        <td align="center">
       <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Desktop%20-%2001.png?raw=true" alt="Home" /><br>
         <sub>
-         Home
+         Desktop - Home
         </sub>
     </td>
   </tr>  
   <tr>
     <td align="center">
-      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Desktop%20-%2002.png?raw=true" alt="Projetos" /><br>
+      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Mobile%20-%2002.png?raw=true" alt="Home" /><br>
         <sub>
-         Projetos
+         Mobile - Projetos
+        </sub>
+    </td>
+        <td align="center">
+      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Desktop%20-%2001.png?raw=true" alt="Home" /><br>
+        <sub>
+         Desktop - Projetos
         </sub>
     </td>
   </tr>
-  <tr>
+    <tr>
     <td align="center">
-      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Desktop%20-%2003.png?raw=true" alt="Habilidades" /><br>
+      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Mobile%20-%2003.png?raw=true" alt="Home" /><br>
         <sub>
-         Habilidades
+         Mobile - Habilidades
+        </sub>
+    </td>
+        <td align="center">
+      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Desktop%20-%2001.png?raw=true" alt="Home" /><br>
+        <sub>
+         Desktop - Habilidades
         </sub>
     </td>
   </tr>
-  <tr>
+    <tr>
     <td align="center">
-      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Desktop%20-%2004.png?raw=true" alt="Sobre" /><br>
+      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Mobile%20-%2004.png?raw=true" alt="Home" /><br>
         <sub>
-         Sobre
+         Mobile - Sobre
+        </sub>
+    </td>
+        <td align="center">
+      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Desktop%20-%2001.png?raw=true" alt="Home" /><br>
+        <sub>
+         Desktop - Sobre
         </sub>
     </td>
   </tr>
-  <tr>
+    <tr>
     <td align="center">
-      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Desktop%20-%2005.png?raw=true" alt="Contato" /><br>
+      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Mobile%20-%2005.png?raw=true" alt="Home" /><br>
         <sub>
-         Contato
+         Mobile - Contato
+        </sub>
+    </td>
+        <td align="center">
+      <img src="https://github.com/1matheusflorencio/Pessoal-Portfolio/blob/master/README%20arquivos/Desktop%20-%2001.png?raw=true" alt="Home" /><br>
+        <sub>
+         Desktop - Contato
         </sub>
     </td>
   </tr>
-</table>
-  </div>
+</table>  </div>
 
 ---
 
