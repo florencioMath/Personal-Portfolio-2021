@@ -1,23 +1,15 @@
 header {
-  background-color: lightgray;
+  background-color: lightskyblue;
   height: 9vh;
   overflow: hidden;
   display: flex;
 }
 
 .container-nav {
-  background-color: darksalmon;
   display: flex;
   width: 100%;
   flex-direction: space-between;
-}
-
-nav a {
-  display: block;
-  float: right;
-  text-align: center;
-  text-decoration: none;
-  padding: 1em;
+  position: fixed;
 }
 
 .container-logo {
@@ -25,15 +17,42 @@ nav a {
   align-items: center;
   justify-content: center;
   width: 40%;
-  background-color: darkkhaki;
+}
+
+.container-logo a {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.container-logo a:hover {
+  color: lightslategray;
+  text-decoration: underline;
 }
 
 nav {
+  width: 100%;
   display: flex;
-  align-items: center;
+  align-self: center;
   justify-content: center;
-  width: 60%;
-  background-color: darkorchid;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em;
+}
+
+nav a {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: lightslategray;
+  text-decoration: underline;
 }
 
 .container-secao-principal {
