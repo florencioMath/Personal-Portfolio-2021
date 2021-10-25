@@ -12,6 +12,14 @@ header {
   flex-direction: space-between;
 }
 
+nav a {
+  display: block;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em;
+}
+
 .container-logo {
   display: flex;
   align-items: center;
