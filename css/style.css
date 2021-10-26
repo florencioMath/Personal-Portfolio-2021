@@ -57,11 +57,28 @@ nav a:hover {
 
 .container-secao-principal {
   background-color: darkgray;
+  padding-top: 9vh;
   height: 91vh;
 }
 
 .container-secao-projetos {
   background-color: darkcyan;
+  padding-top: 9vh;
+  height: 91vh;
+}
+.container-secao-habilidades {
+  background-color: darkgoldenrod;
+  padding-top: 9vh;
+  height: 91vh;
+}
+.container-secao-sobre {
+  background-color: darkkhaki;
+  padding-top: 9vh;
+  height: 91vh;
+}
+.container-secao-contato {
+  background-color: darkseagreen;
+  padding-top: 9vh;
   height: 91vh;
 }
   
