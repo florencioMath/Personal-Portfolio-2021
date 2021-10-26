@@ -7,26 +7,36 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: o 20%;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-self: center;
-  width: 80%;
+  width: 100%;
   background-color: darkorange;
+
 }
 
 .container-logo {
-  width: 30%;
+  width: 40%;
   display: flex;
 }
 
 .container-links {
-  width: 50%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: brown;
+}
+
+.container-links ul {
+  background-color: cadetblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container-links li {
@@ -46,4 +56,5 @@ a:hover {
 .container-section-home, .container-section-projetos {
   height: 91vh;
   padding-top: 9vh;
+  text-align: justify;
 }
