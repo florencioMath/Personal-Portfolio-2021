@@ -1,17 +1,33 @@
+/* -- CORES -- */
 header {
-  background-color: lightskyblue;
-  height: 9vh;
-  overflow: hidden;
-  display: flex;
+  background-color: lightcoral;
 }
 
 .container-nav {
+  background-color: lightcyan;
+}
+
+.container-logo {
+  background-color: lightslategray;
+}
+
+/* -- Header,  Agrupa o Logo e a Navbar -- */
+header {
+  height: 9vh;
+  overflow: hidden;
   display: flex;
   width: 100%;
   flex-direction: space-between;
   position: fixed;
 }
 
+/* -- Agrupa os containers do Logo e da Navbar  -- */
+.container-nav {
+  display: flex;
+  width: 100%;
+}
+
+/* -- Container do Logo -- */
 .container-logo {
   display: flex;
   align-items: center;
@@ -31,16 +47,17 @@ header {
   text-decoration: underline;
 }
 
+/* -- Agruapa os links do Projetos, Habilidades, Sobre e Contato  -- */
 nav {
-  width: 100%;
   display: flex;
   align-self: center;
   justify-content: center;
+  width: 60%;
 }
 
 nav li {
   display: inline-block;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 nav a {
@@ -81,54 +98,4 @@ nav a:hover {
   padding-top: 9vh;
   height: 91vh;
 }
-  
-  /* Visualização Mobile */
-  @media screen and (max-width: 768px) {
-    body {
-      overflow-x: hidden;
-    }
-    .nav-links {
-      position: absolute;
-      right: 0px;
-      height: 92vh;
-      top: 8vh;
-      background-color: #000401;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 55%;
-      transform: translateX(100%);
-      transition: transform 0.5s ease-in;
-    }
-  
-    /* -- Deixa o Burger visível para a visualização Mobile -- */
-    .burger {
-      display: block;
-    }
-  }
-  
-  .nav-active {
-    transform: translateX(0%);
-  }
-  
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-  
-  .toggle .linha1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-  .toggle .linha2 {
-    opacity: 0;
-  }
-  .toggle .linha3 {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
   
