@@ -1,157 +1,49 @@
+header {
+  background-color: darkolivegreen;
+  height: 9vh;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 nav {
   display: flex;
-  justify-content: space-between;
-  padding: 0 5%;
   align-items: center;
-  min-height: 8vh;
-  font-family: 'Times New Roman', Times, serif;
-  background-color: #000401;   
+  justify-self: center;
+  width: 80%;
+  background-color: darkorange;
 }
 
-.logo {
-  color: #E5E8E8;
-  letter-spacing: 5px;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-around;
+.container-logo {
   width: 30%;
+  display: flex;
 }
 
-.nav-links li {
-  list-style: none;
+.container-links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.nav-links a{
-  color: #E5E8E8;
+.container-links li {
+  display: inline-block;
+}
+
+a {
   text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: bold;
-  font-size: 14px;
+  color: black;
 }
 
-
-/* Deixa invisível o CONTATO para a visualização Desktop */
-.contato {
-  display: none;
-  cursor: pointer;
+a:hover {
+  text-decoration: underline darkslategray;
+  color: dimgray;
 }
 
-/* Deixa invisível o Burger para a visualização Desktop */
-.burger {
-  display: none;
-  cursor: pointer;
-}
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color: #E5E8E8;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-/* Visualização Desktop */
-@media screen and (max-width: 1024px) {
-  .nav-links{
-      width: 60%;
-  }    
-}
-
-/* Visualização Mobile */
-@media screen and (max-width:768px) {
-  body {
-      overflow-x: hidden;
-  }
-  .nav-links {
-      position: absolute;
-      right: 0px;
-      height: 92vh;
-      top: 8vh;
-      background-color: #000401;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 55%;
-      transform: translateX(100%);
-      transition: transform 0.5s ease-in;
-  }
-
-/* -- Deixa visível o Burger para a visualização Mobile -- */
-  .burger {
-      display: block;
-  }
-
-/* -- Deixa visível o CONTATO para a visualização Mobile -- */
-  .contato {
-      display: block;
-      color: #E5E8E8;
-      border: 1px solid;
-      border-radius: 5px;
-      padding: 3px;
-  }
-
-  .contato a {
-      text-decoration: none;
-      color: #E5E8E8;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-  }
-
-/* -- Secção principal -- */
-  .sPrincipal {
-      display: flex;
-      flex-direction: column;
-      height: 92vh;
-      background-color: #000401;
-  }
-
-/* -- Secção do nome -- */    
-  .pNome {
-      font-size: 36px;
-      color: #E5E8E8;
-      height: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 10%;
-  }
-
-/* -- Secção do nome -- */
-  .pParag {
-      font-size: 32px;
-      height: 50%;
-      display: flex;
-      text-align: center;
-      color: #E5E8E8;
-      padding: 10%;
-  }
-}
-
-.nav-active {
-  transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-  from {
-      opacity: 0;
-      transform: translateX(50px);
-  } to {
-      opacity: 1;
-      transform: translateX(0px);
-  }
-}
-
-.toggle .linha1{
-  transform: rotate(-45deg) translate(-5px,6px);
-}
-.toggle .linha2{
-  opacity: 0;
-}
-.toggle .linha3{
-  transform: rotate(45deg) translate(-5px,-6px);
+.container-section-home, .container-section-projetos {
+  height: 91vh;
+  padding-top: 9vh;
 }
