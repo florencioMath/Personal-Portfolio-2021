@@ -1,93 +1,72 @@
-header {
-  background-color: lightskyblue;
-  height: 9vh;
-  overflow: hidden;
-  display: flex;
-}
-
-.container-nav {
-  display: flex;
-  width: 100%;
-  flex-direction: space-between;
-  position: fixed;
-}
-
-.container-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40%;
-}
-
-.container-logo a {
-  color: #000;
-  font-weight: bold;
-  font-size: 1.5em;
-  text-decoration: none;
-}
-
-.container-logo a:hover {
-  color: lightslategray;
-  text-decoration: underline;
-}
-
 nav {
-  width: 100%;
   display: flex;
-  align-self: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #000401;   
 }
 
-nav li {
-  display: inline-block;
-  padding: 1em;
+.logo {
+  color: #E5E8E8;
+  letter-spacing: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
-nav a {
-  color: #000;
-  font-weight: bold;
-  font-size: 1.5em;
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a{
+  color: #E5E8E8;
   text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-nav a:hover {
-  color: lightslategray;
-  text-decoration: underline;
+
+/* Deixa invisível o CONTATO para a visualização Desktop */
+.contato {
+  display: none;
+  cursor: pointer;
 }
 
-.container-secao-principal {
-  background-color: darkgray;
-  padding-top: 9vh;
-  height: 91vh;
+/* Deixa invisível o Burger para a visualização Desktop */
+.burger {
+  display: none;
+  cursor: pointer;
 }
 
-.container-secao-projetos {
-  background-color: darkcyan;
-  padding-top: 9vh;
-  height: 91vh;
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #E5E8E8;
+  margin: 5px;
+  transition: all 0.3s ease;
 }
-.container-secao-habilidades {
-  background-color: darkgoldenrod;
-  padding-top: 9vh;
-  height: 91vh;
+
+/* Visualização Desktop */
+@media screen and (max-width: 1024px) {
+  .nav-links{
+      width: 60%;
+  }    
 }
-.container-secao-sobre {
-  background-color: darkkhaki;
-  padding-top: 9vh;
-  height: 91vh;
-}
-.container-secao-contato {
-  background-color: darkseagreen;
-  padding-top: 9vh;
-  height: 91vh;
-}
-  
-  /* Visualização Mobile */
-  @media screen and (max-width: 768px) {
-    body {
+
+/* Visualização Mobile */
+@media screen and (max-width:768px) {
+  body {
       overflow-x: hidden;
-    }
-    .nav-links {
+  }
+  .nav-links {
       position: absolute;
       right: 0px;
       height: 92vh;
@@ -99,36 +78,80 @@ nav a:hover {
       width: 55%;
       transform: translateX(100%);
       transition: transform 0.5s ease-in;
-    }
-  
-    /* -- Deixa o Burger visível para a visualização Mobile -- */
-    .burger {
+  }
+
+/* -- Deixa visível o Burger para a visualização Mobile -- */
+  .burger {
       display: block;
-    }
   }
-  
-  .nav-active {
-    transform: translateX(0%);
+
+/* -- Deixa visível o CONTATO para a visualização Mobile -- */
+  .contato {
+      display: block;
+      color: #E5E8E8;
+      border: 1px solid;
+      border-radius: 5px;
+      padding: 3px;
   }
-  
-  @keyframes navLinkFade {
-    from {
+
+  .contato a {
+      text-decoration: none;
+      color: #E5E8E8;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+  }
+
+/* -- Secção principal -- */
+  .sPrincipal {
+      display: flex;
+      flex-direction: column;
+      height: 92vh;
+      background-color: #000401;
+  }
+
+/* -- Secção do nome -- */    
+  .pNome {
+      font-size: 36px;
+      color: #E5E8E8;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10%;
+  }
+
+/* -- Secção do nome -- */
+  .pParag {
+      font-size: 32px;
+      height: 50%;
+      display: flex;
+      text-align: center;
+      color: #E5E8E8;
+      padding: 10%;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
       opacity: 0;
       transform: translateX(50px);
-    }
-    to {
+  } to {
       opacity: 1;
       transform: translateX(0px);
-    }
   }
-  
-  .toggle .linha1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-  .toggle .linha2 {
-    opacity: 0;
-  }
-  .toggle .linha3 {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
-  
+}
+
+.toggle .linha1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .linha2{
+  opacity: 0;
+}
+.toggle .linha3{
+  transform: rotate(45deg) translate(-5px,-6px);
+}
