@@ -1,5 +1,4 @@
 header {
-  background-color: darkolivegreen;
   height: 9vh;
   position: fixed;
   overflow: hidden;
@@ -7,7 +6,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: o 20%;
 }
 
 nav {
@@ -15,8 +13,7 @@ nav {
   align-items: center;
   justify-self: center;
   width: 100%;
-  background-color: darkorange;
-
+  padding: 0 10%;
 }
 
 .container-logo {
@@ -29,11 +26,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: brown;
 }
 
 .container-links ul {
-  background-color: cadetblue;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -46,6 +41,8 @@ nav {
 a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 a:hover {
@@ -55,6 +52,6 @@ a:hover {
 
 .container-section-home, .container-section-projetos {
   height: 91vh;
-  padding-top: 9vh;
+  padding: 9vh 10% 0 10%;
   text-align: justify;
 }
