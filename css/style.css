@@ -5,6 +5,10 @@
   --texto-02: #0076C1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background-color: var(--frame-background);
   height: 9vh;
