@@ -22,11 +22,13 @@ nav {
   justify-self: center;
   width: 100%;
   padding: 0 10%;
+  overflow: hidden;
 }
 
 .container-logo {
   width: 40%;
   display: flex;
+  overflow: hidden;
 }
 
 .container-links {
@@ -34,6 +36,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .container-links ul {
