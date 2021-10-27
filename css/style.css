@@ -1,4 +1,12 @@
+:root {
+  --frame-background: #000401;
+  --frame-background2: #04151F;
+  --texto-01: #F3F3F3;
+  --texto-02: #0076C1;
+}
+
 header {
+  background-color: var(--frame-background);
   height: 9vh;
   position: fixed;
   overflow: hidden;
@@ -40,7 +48,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
   font-weight: bold;
   font-size: 1.5em;
 }
@@ -54,4 +62,14 @@ a:hover {
   height: 91vh;
   padding: 9vh 10% 0 10%;
   text-align: justify;
+}
+
+.container-section-home {
+  background-color: var(--frame-background);
+  color: var(--texto-01);
+}
+
+.container-section-projetos {
+  background-color: var(--frame-background2);
+  color: var(--texto-01);
 }
