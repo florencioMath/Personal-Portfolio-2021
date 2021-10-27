@@ -61,7 +61,7 @@ a:hover {
   color: dimgray;
 }
 
-.container-section-home, .container-section-projetos {
+.container-section-home, .container-section-projetos, .container-section-habilidades, .container-section-sobre, .container-section-contato {
   height: 91vh;
   padding: 9vh 10% 0 10%;
   text-align: justify;
@@ -74,5 +74,20 @@ a:hover {
 
 .container-section-projetos {
   background-color: var(--frame-background2);
+  color: var(--texto-01);
+}
+
+.container-section-habilidades {
+  background-color: var(--frame-background);
+  color: var(--texto-01);
+}
+
+.container-section-sobre {
+  background-color: var(--frame-background2);
+  color: var(--texto-01);
+}
+
+.container-section-contato {
+  background-color: var(--frame-background);
   color: var(--texto-01);
 }
