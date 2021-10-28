@@ -35,6 +35,10 @@ nav {
   overflow: hidden;
 }
 
+.container__links, ul {
+  visibility: hidden;
+}
+
 .container__links {
   width: 60%;
   display: flex;
