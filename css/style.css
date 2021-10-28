@@ -30,20 +30,12 @@ nav {
 }
 
 .container__logo {
-  width: 40%;
+  width: 60%;
   display: flex;
   overflow: hidden;
 }
 
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color: #e5e8e8;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-.container__links, ul {
+.container__links ul {
   visibility: hidden;
 }
 
@@ -106,4 +98,43 @@ a:hover {
 .container__section__contato {
   background-color: var(--frame-background);
   color: var(--texto-01);
+}
+
+
+/* -- Burguer para mobile --*/
+.burger {
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #e5e8e8;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .linha1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .linha2 {
+  opacity: 0;
+}
+.toggle .linha3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
