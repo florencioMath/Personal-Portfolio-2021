@@ -30,13 +30,25 @@ nav {
 }
 
 .container__logo {
-  width: 60%;
+  width: 40%;
   display: flex;
   overflow: hidden;
 }
 
-.container__links ul {
+
+/* -- -- */
+.container__links {
   visibility: hidden;
+}
+
+@media screen and (min-width: 768px){
+
+.container__logo {
+  background-color: blue;
+}
+
+.container__links {
+  visibility: unset;
 }
 
 .container__links {
@@ -56,7 +68,7 @@ nav {
 .container__links li {
   display: inline-block;
 }
-
+}
 a {
   text-decoration: none;
   color: whitesmoke;
@@ -69,7 +81,13 @@ a:hover {
   color: dimgray;
 }
 
-.container__section__home, .container__section__projetos, .container__section__habilidades, .container__section__sobre, .container__section__contato {
+
+
+/* -- SEÇÕES -- */
+
+.container__section__home, .container__section__projetos,
+.container__section__habilidades, .container__section__sobre,
+.container__section__contato {
   height: 91vh;
   padding: 9vh 10% 0 10%;
   text-align: justify;
@@ -98,43 +116,4 @@ a:hover {
 .container__section__contato {
   background-color: var(--frame-background);
   color: var(--texto-01);
-}
-
-
-/* -- Burguer para mobile --*/
-.burger {
-  cursor: pointer;
-}
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color: #e5e8e8;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-.nav-active {
-  transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-.toggle .linha1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .linha2 {
-  opacity: 0;
-}
-.toggle .linha3 {
-  transform: rotate(45deg) translate(-5px, -6px);
 }
