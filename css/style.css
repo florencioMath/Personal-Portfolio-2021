@@ -35,6 +35,14 @@ nav {
   overflow: hidden;
 }
 
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #e5e8e8;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
 .container__links, ul {
   visibility: hidden;
 }
