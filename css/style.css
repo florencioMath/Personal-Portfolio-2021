@@ -35,13 +35,32 @@ nav {
   overflow: hidden;
 }
 
+.container__burguer {
+  cursor: pointer;
+}
 
-/* -- -- */
+.container__burguer div {
+  width: 30px;
+  height: 4px;
+  background-color: var(--texto-01);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+
+/* -- Deixa a Navbar de Links invisível para mobile-- */
 .container__links {
   visibility: hidden;
 }
 
+
+
 @media screen and (min-width: 768px){
+
+.container__burguer {
+  visibility: hidden;
+  display: none;
+}
 
 .container__logo {
   background-color: blue;
