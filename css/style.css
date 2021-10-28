@@ -35,19 +35,18 @@ nav {
   overflow: hidden;
 }
 
+/* -- Burger para o menu Mobile -- */
 .container__burguer {
   cursor: pointer;
   width: 60%;
   background-color: violet;
-  display: block;
-  justify-content: end;
 }
 
 .container__burguer div {
   width: 30px;
   height: 4px;
   background-color: var(--texto-01);
-  margin: 5px;
+  margin: 5px 0;
   transition: all 0.3s ease;
 }
 
