@@ -37,6 +37,10 @@ nav {
 
 .container__burguer {
   cursor: pointer;
+  width: 60%;
+  background-color: violet;
+  display: block;
+  justify-content: end;
 }
 
 .container__burguer div {
@@ -51,6 +55,7 @@ nav {
 /* -- Deixa a Navbar de Links invisível para mobile-- */
 .container__links {
   visibility: hidden;
+  display: none;
 }
 
 
