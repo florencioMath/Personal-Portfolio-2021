@@ -29,13 +29,13 @@ nav {
   overflow: hidden;
 }
 
-.container-logo {
+.container__logo {
   width: 40%;
   display: flex;
   overflow: hidden;
 }
 
-.container-links {
+.container__links {
   width: 60%;
   display: flex;
   align-items: center;
@@ -43,13 +43,13 @@ nav {
   overflow: hidden;
 }
 
-.container-links ul {
+.container__links ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.container-links li {
+.container__links li {
   display: inline-block;
 }
 
@@ -65,33 +65,33 @@ a:hover {
   color: dimgray;
 }
 
-.container-section-home, .container-section-projetos, .container-section-habilidades, .container-section-sobre, .container-section-contato {
+.container__section__home, .container__section__projetos, .container__section__habilidades, .container__section__sobre, .container__section__contato {
   height: 91vh;
   padding: 9vh 10% 0 10%;
   text-align: justify;
 }
 
-.container-section-home {
+.container__section__home {
   background-color: var(--frame-background);
   color: var(--texto-01);
 }
 
-.container-section-projetos {
+.container__section__projetos {
   background-color: var(--frame-background2);
   color: var(--texto-01);
 }
 
-.container-section-habilidades {
+.container__section__habilidades {
   background-color: var(--frame-background);
   color: var(--texto-01);
 }
 
-.container-section-sobre {
+.container__section__sobre {
   background-color: var(--frame-background2);
   color: var(--texto-01);
 }
 
-.container-section-contato {
+.container__section__contato {
   background-color: var(--frame-background);
   color: var(--texto-01);
 }
