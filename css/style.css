@@ -64,6 +64,9 @@ a:hover {
   color: dimgray;
 }
 
+
+/* -- Movimentação do Burguer -- */
+
 .nav-active {
   transform: translateX(0%);
 }
