@@ -39,11 +39,9 @@ nav {
 .container__burguer {
   cursor: pointer;
   width: 60%;
-  background-color: violet;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-end;
 }
 
 .container__burguer div {
@@ -103,6 +101,31 @@ a:hover {
   text-decoration: underline darkslategray;
   color: dimgray;
 }
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+      opacity: 0;
+      transform: translateX(50px);
+  } to {
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+.toggle .linha1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .linha2{
+  opacity: 0;
+}
+.toggle .linha3{
+  transform: rotate(45deg) translate(-5px,-6px);
+}
+
 
 
 
