@@ -60,36 +60,36 @@ nav {
 }
 
 
-
+/* -- Media Querry para a versão Desktop -- */
 @media screen and (min-width: 768px){
+  .container__burguer {
+    visibility: hidden;
+    display: none;
+  }
 
-.container__burguer {
-  visibility: hidden;
-  display: none;
+  .container__links {
+    visibility: unset;
+  }
+
+  .container__links {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .container__links ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container__links li {
+    display: inline-block;
+  }
 }
 
-.container__links {
-  visibility: unset;
-}
-
-.container__links {
-  width: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.container__links ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.container__links li {
-  display: inline-block;
-}
-}
 a {
   text-decoration: none;
   color: whitesmoke;
@@ -101,33 +101,6 @@ a:hover {
   text-decoration: underline darkslategray;
   color: dimgray;
 }
-
-.nav-active {
-  transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-  from {
-      opacity: 0;
-      transform: translateX(50px);
-  } to {
-      opacity: 1;
-      transform: translateX(0px);
-  }
-}
-
-.toggle .linha1{
-  transform: rotate(-45deg) translate(-5px,6px);
-}
-.toggle .linha2{
-  opacity: 0;
-}
-.toggle .linha3{
-  transform: rotate(45deg) translate(-5px,-6px);
-}
-
-
-
 
 /* -- SEÇÕES -- */
 
