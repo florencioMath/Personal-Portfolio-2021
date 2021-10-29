@@ -64,6 +64,30 @@ a:hover {
   color: dimgray;
 }
 
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+      opacity: 0;
+      transform: translateX(50px);
+  } to {
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+.toggle .linha1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .linha2{
+  opacity: 0;
+}
+.toggle .linha3{
+  transform: rotate(45deg) translate(-5px,-6px);
+}
+
 /* -- Deixa a Navbar de Links invisível para mobile-- */
 .container__links {
   visibility: hidden;
