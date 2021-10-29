@@ -52,13 +52,23 @@ nav {
   transition: all 0.3s ease;  
 }
 
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+a:hover {
+  text-decoration: underline darkslategray;
+  color: dimgray;
+}
 
 /* -- Deixa a Navbar de Links invisível para mobile-- */
 .container__links {
   visibility: hidden;
   display: none;
 }
-
 
 /* -- Media Querry para a versão Desktop -- */
 @media screen and (min-width: 768px){
@@ -88,18 +98,6 @@ nav {
   .container__links li {
     display: inline-block;
   }
-}
-
-a {
-  text-decoration: none;
-  color: whitesmoke;
-  font-weight: bold;
-  font-size: 1.5em;
-}
-
-a:hover {
-  text-decoration: underline darkslategray;
-  color: dimgray;
 }
 
 /* -- SEÇÕES -- */
