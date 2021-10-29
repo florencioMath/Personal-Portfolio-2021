@@ -40,14 +40,18 @@ nav {
   cursor: pointer;
   width: 60%;
   background-color: violet;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .container__burguer div {
   width: 30px;
   height: 4px;
   background-color: var(--texto-01);
-  margin: 5px 0;
-  transition: all 0.3s ease;
+  margin: 3px 0;
+  transition: all 0.3s ease;  
 }
 
 
@@ -64,10 +68,6 @@ nav {
 .container__burguer {
   visibility: hidden;
   display: none;
-}
-
-.container__logo {
-  background-color: blue;
 }
 
 .container__links {
