@@ -1,10 +1,5 @@
+/* -- Criado para a visualização Desktop --*/
 @media screen and (min-width: 1024px) {
-
-    h1,
-    .container__logo {
-        background-color: brown;
-    }
-
     .container__burguer {
         display: none;
     }
@@ -16,20 +11,17 @@
         display         : flex;
         align-items     : center;
         width           : 60%;
-        background-color: green;
         transform       : unset;
     }
 
     .container__links ul {
         height: unset;
         flex-direction  : row;
-        background-color: tomato;
         width: 100%;
     }
 
     .container__links li {
         opacity         : unset;
-        background-color: darkcyan;
         cursor: unset;
         width: unset;
     }
