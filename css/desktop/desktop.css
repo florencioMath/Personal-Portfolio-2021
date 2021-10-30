@@ -1,0 +1,33 @@
+@media screen and (min-width: 1024px) {
+    h1, .container__logo {
+        background-color: brown;
+    }
+
+    .container__burguer {
+        display: none;
+    }
+
+    .container__links {
+        position: relative;
+        top: unset;
+        height: 9vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        background-color: green;
+        transform: unset;
+        color: honeydew;
+    }
+
+    .container__links ul {
+        flex-direction: unset;
+        right: 0;
+        background-color: tomato;
+    }
+
+    .container__links li {
+        opacity: unset;
+    }
+    
+}
