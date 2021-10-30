@@ -9,6 +9,32 @@ html {
   scroll-behavior: smooth;
 }
 
+header {
+  background-color: var(--frame-background);
+  height: 9vh;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 100%;
+  padding: 0 10%;
+  overflow: hidden;
+}
+
+.container__logo {
+  width: 40%;
+  display: flex;
+  overflow: hidden;
+}
+
 /* -- Burger para o menu Mobile -- */
 .container__burguer {
   cursor: pointer;
@@ -26,7 +52,17 @@ html {
   transition: all 0.3s ease;  
 }
 
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.5em;
+}
 
+a:hover {
+  text-decoration: underline darkslategray;
+  color: dimgray;
+}
 
 
 /* -- Movimentação do Burguer -- */
