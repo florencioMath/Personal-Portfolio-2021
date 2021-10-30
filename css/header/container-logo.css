@@ -1,0 +1,5 @@
+.container__logo {
+    width: 40%;
+    display: flex;
+    overflow: hidden;
+  }
