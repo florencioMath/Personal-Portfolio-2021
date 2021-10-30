@@ -15,7 +15,6 @@
         height          : 9vh;
         display         : flex;
         align-items     : center;
-        justify-content : space-between;
         width           : 60%;
         background-color: green;
         transform       : unset;
@@ -32,8 +31,7 @@
         opacity         : unset;
         background-color: darkcyan;
         cursor: unset;
-        float: right;
-        justify-content: flex-end;
+        width: unset;
     }
 
     .container__links a {
