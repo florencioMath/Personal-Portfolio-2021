@@ -1,5 +1,7 @@
 @media screen and (min-width: 1024px) {
-    h1, .container__logo {
+
+    h1,
+    .container__logo {
         background-color: brown;
     }
 
@@ -8,26 +10,36 @@
     }
 
     .container__links {
-        position: relative;
-        top: unset;
-        height: 9vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 60%;
+        position        : relative;
+        top             : unset;
+        height          : 9vh;
+        display         : flex;
+        align-items     : center;
+        justify-content : space-between;
+        width           : 60%;
         background-color: green;
-        transform: unset;
-        color: honeydew;
+        transform       : unset;
+        color           : honeydew;
     }
 
     .container__links ul {
-        flex-direction: unset;
-        right: 0;
+        flex-direction  : row;
         background-color: tomato;
+        width: 100%;
+        justify-content: space-between;
     }
 
     .container__links li {
-        opacity: unset;
+        opacity         : unset;
+        background-color: darkcyan;
+        justify-content: space-between;
+        cursor: unset;
     }
-    
+
+    .container__links a {
+        display: flex;
+        justify-content: space-between;
+        padding: unset;
+    }
+
 }
