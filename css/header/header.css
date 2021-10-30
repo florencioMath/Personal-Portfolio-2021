@@ -1,0 +1,21 @@
+header {
+    background-color: var(--frame-background);
+    height: 9vh;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  header a:hover {
+    text-decoration: underline darkslategray;
+    color: dimgray;
+  }
