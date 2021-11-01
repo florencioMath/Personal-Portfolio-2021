@@ -1,4 +1,9 @@
 .container__logo {
     width: 40%;
     display: flex;
-  }
+}
+
+svg {
+  width: 250px;
+  width: 100%;
+}
