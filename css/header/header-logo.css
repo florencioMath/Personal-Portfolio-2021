@@ -1,9 +1,9 @@
 .container__logo {
-    width: 40%;
     display: flex;
+    align-items: center;
+    width: 60%;
 }
 
 svg {
-  width: 250px;
-  width: 100%;
+  width: 100%
 }
