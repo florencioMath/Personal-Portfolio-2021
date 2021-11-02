@@ -8,3 +8,22 @@
   background-color: var(--frame-background);
   color: var(--texto-01);
 }
+
+.section__home--titulo {
+  color: var(--texto-02);
+  align-items: flex-start;
+  display: flex;
+  font-size: 2.5rem;
+  width: 100%;
+  height: 25%;
+  text-align: start;
+  background-color: darkcyan;
+  margin-top: 10%;
+}
+
+.section__home--texto {
+  background-color: dimgray;
+  width: 100%;
+  height: 25%;
+  margin-top: 10%;
+}
