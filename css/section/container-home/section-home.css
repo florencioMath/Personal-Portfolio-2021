@@ -11,19 +11,27 @@
 
 .section__home--titulo {
   color: var(--texto-02);
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   font-size: 2.5rem;
+  letter-spacing: 0.15rem;
   width: 100%;
   height: 25%;
+  justify-content: left;
   text-align: start;
-  background-color: darkcyan;
-  margin-top: 10%;
+  background-color: darkkhaki;
 }
 
 .section__home--texto {
   background-color: dimgray;
+  color: var(--texto-01);
+  display: flex;
+  align-items: center;
+  justify-content: right;
   width: 100%;
   height: 25%;
-  margin-top: 10%;
+  margin-top: 5%;
+  text-align: right;
+  font-size: 1.5rem;
+  letter-spacing: 0.15rem;
 }
