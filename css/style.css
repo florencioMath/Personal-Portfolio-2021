@@ -10,17 +10,12 @@ html {
 }
 
 /* -- SEÇÕES -- */
-.container__section__home, .container__section__projetos,
+.container__section__projetos,
 .container__section__habilidades, .container__section__sobre,
 .container__section__contato {
   height: 91vh;
   padding: 9vh 10% 0 10%;
   text-align: justify;
-}
-
-.container__section__home {
-  background-color: var(--frame-background);
-  color: var(--texto-01);
 }
 
 .container__section__projetos {
