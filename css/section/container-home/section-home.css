@@ -19,11 +19,9 @@
   height: 25%;
   justify-content: left;
   text-align: start;
-  background-color: darkkhaki;
 }
 
 .section__home--texto {
-  background-color: dimgray;
   color: var(--texto-01);
   display: flex;
   align-items: center;

@@ -7,8 +7,8 @@
   }
   
   .container__burguer div {
-    width: 30px;
-    height: 4px;
+    width: 2rem;
+    height: 0.15rem;
     background-color: var(--texto-01);
     margin: 3px 0;
     transition: all 0.3s ease;  
