@@ -1,0 +1,10 @@
+.container__section__projetos{
+  height: 91vh;
+  padding: 9vh 10% 0 10%;
+  text-align: justify;
+}
+
+.container__section__projetos {
+  background-color: var(--frame-background2);
+  color: var(--texto-01);
+}
