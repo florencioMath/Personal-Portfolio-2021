@@ -1,5 +1,4 @@
 .container__section--projetos--card {
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,3 +22,6 @@
     font-weight: bold;
 }
 
+.projetos--texto {
+    text-align: center;
+}
