@@ -1,15 +1,14 @@
 .container__section__projetos{
-  height: 91vh;
-  padding: 9vh 10% 0 10%;
-  text-align: justify;
-}
-
-.container__section__projetos {
   background-color: var(--frame-background2);
   color: var(--texto-01);
+  height: fit-content;
+  padding: 9vh 10% 0 10%;
+  text-align: justify;
+  background-color: tomato;
 }
 
 .section__projetos--titulo {
+  background-color: bisque;
   color: var(--texto-02);
   align-items: center;
   display: flex;
@@ -19,4 +18,5 @@
   height: 25%;
   justify-content: left;
   text-align: start;
+  padding-top: 2rem;
 }
