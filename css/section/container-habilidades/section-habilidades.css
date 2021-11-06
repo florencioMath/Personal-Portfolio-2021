@@ -7,83 +7,105 @@
 }
 
 .habilidades--titulo {
-    color: var(--texto-02);
-    align-items: center;
-    display: flex;
-    font-size: 2rem;
-    letter-spacing: 0.15rem;
-    width: 100%;
-    height: 25%;
-    justify-content: left;
-    text-align: start;
-    color: var(--texto-02);
-    background-color: aliceblue;
-  }
+  color: var(--texto-02);
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+  width: 100%;
+  height: 25%;
+  justify-content: left;
+  text-align: start;
+  color: var(--texto-02);
+  background-color: aliceblue;
+}
 
-  .habilidades--texto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 35%;
-    width: 100%;
-    background-color: darkolivegreen;
-    text-align: center;
-    color: var(--texto-01);
-  }
+.habilidades--texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35%;
+  width: 100%;
+  background-color: darkolivegreen;
+  text-align: center;
+  color: var(--texto-01);
+}
 
-  .container__habilidades--icones {
-    background-color: darkorange;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 30%;
-  }
+.container__habilidades--icones {
+  background-color: darkorange;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 35%;
+}
 
-
-  
 .icone-google {
   display: flex;
-  width: 25%;
-  height: 25%;
+  width: 21%;
+  height: 35%;
   background-color: darkred;
+  background-image: url(/images/icones/icone-google.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .icone-stack-overflow {
-  width: 25%;
-  height: 25%;
+  width: 21%;
+  height: 35%;
   background-color: darkorchid;
+  background-image: url(/images/icones/icone-stack-overflow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .icone-html5 {
-  width: 25%;
-  height: 25%;
+  width: 21%;
+  height: 35%;
   background-color: darksalmon;
+  background-image: url(/images/icones/icone-html5.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .icone-css3 {
-  width: 25%;
-  height: 25%;
+  width: 21%;
+  height: 35%;
   background-color: darkseagreen;
+  background-image: url(/images/icones/icone-css3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .icone-javascript {
-  width: 25%;
-  height: 25%;
+  width: 21%;
+  height: 35%;
   background-color: darkslateblue;
+  background-image: url(/images/icones/icone-javascript.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .icone-github {
-  width: 25%;
-  height: 25%;
+  width: 21%;
+  height: 35%;
   background-color: darkslategrey;
+  background-image: url(/images/icones/icone-github.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .icone-figma {
-  width: 25%;
-  height: 25%;
+  width: 21%;
+  height: 35%;
   background-color: darkturquoise;
+  background-image: url(/images/icones/icone-figma.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .icone-git {
-  width: 25%;
-  height: 25%;
+  width: 21%;
+  height: 35%;
   background-color: darkorchid;
+  background-image: url(/images/icones/icone-git.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
