@@ -16,5 +16,74 @@
     height: 25%;
     justify-content: left;
     text-align: start;
+    color: var(--texto-02);
     background-color: aliceblue;
   }
+
+  .habilidades--texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+    width: 100%;
+    background-color: darkolivegreen;
+    text-align: center;
+    color: var(--texto-01);
+  }
+
+  .container__habilidades--icones {
+    background-color: darkorange;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30%;
+  }
+
+
+  
+.icone-google {
+  display: flex;
+  width: 25%;
+  height: 25%;
+  background-color: darkred;
+}
+
+.icone-stack-overflow {
+  width: 25%;
+  height: 25%;
+  background-color: darkorchid;
+}
+
+.icone-html5 {
+  width: 25%;
+  height: 25%;
+  background-color: darksalmon;
+}
+.icone-css3 {
+  width: 25%;
+  height: 25%;
+  background-color: darkseagreen;
+}
+.icone-javascript {
+  width: 25%;
+  height: 25%;
+  background-color: darkslateblue;
+}
+.icone-github {
+  width: 25%;
+  height: 25%;
+  background-color: darkslategrey;
+}
+.icone-figma {
+  width: 25%;
+  height: 25%;
+  background-color: darkturquoise;
+}
+
+.icone-git {
+  width: 25%;
+  height: 25%;
+  background-color: darkorchid;
+}
