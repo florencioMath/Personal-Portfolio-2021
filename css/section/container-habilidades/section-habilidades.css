@@ -47,6 +47,7 @@
   background-image: url(/images/icones/icone-google.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: unset;
 }
 
 .icone-stack-overflow {
@@ -55,6 +56,7 @@
   background-image: url(/images/icones/icone-stack-overflow.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: unset;
 }
 
 .icone-html5 {
@@ -63,6 +65,7 @@
   background-image: url(/images/icones/icone-html5.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: unset;
 }
 .icone-css3 {
   width: 21%;
@@ -70,6 +73,7 @@
   background-image: url(/images/icones/icone-css3.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: unset;
 }
 .icone-javascript {
   width: 21%;
@@ -77,6 +81,7 @@
   background-image: url(/images/icones/icone-javascript.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: unset;
 }
 .icone-github {
   width: 21%;
@@ -91,6 +96,7 @@
   background-image: url(/images/icones/icone-figma.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: unset;
 }
 
 .icone-git {
@@ -99,6 +105,7 @@
   background-image: url(/images/icones/icone-git.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: unset;
 }
 
 
