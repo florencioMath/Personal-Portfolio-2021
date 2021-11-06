@@ -4,11 +4,9 @@
   height: fit-content;
   padding: 9vh 10% 0 10%;
   text-align: justify;
-  background-color: tomato;
 }
 
 .section__projetos--titulo {
-  background-color: bisque;
   color: var(--texto-02);
   align-items: center;
   display: flex;
@@ -18,5 +16,5 @@
   height: 25%;
   justify-content: left;
   text-align: start;
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
