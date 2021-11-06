@@ -17,11 +17,6 @@ html {
   text-align: justify;
 }
 
-.container__section__habilidades {
-  background-color: var(--frame-background);
-  color: var(--texto-01);
-}
-
 .container__section__sobre {
   background-color: var(--frame-background2);
   color: var(--texto-01);
