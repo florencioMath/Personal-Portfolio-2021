@@ -8,12 +8,9 @@
 }
 
 .projetos--imagem {
-    background-image: url(/images/projetos/portfolio-antigo.png);
+    background: url('/images/projetos/portfolio-antigo.png') center / contain no-repeat;
+    height: 100%;
     width: 100%;
-    height: 250px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 2%;
 }
 
 .projetos--titulo {
