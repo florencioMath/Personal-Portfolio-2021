@@ -1,12 +1,12 @@
-.container__section__habilidades {
+.container__section__sobre {
   height: 91vh;
   padding: 9vh 10% 0 10%;
   text-align: justify;
-  background-color: var(--frame-background);
+  background-color: var(--frame-background2);
   color: var(--texto-01);
 }
 
-.habilidades--titulo {
+.sobre--titulo {
   color: var(--texto-02);
   align-items: center;
   display: flex;
@@ -21,7 +21,7 @@
   letter-spacing: 0.2rem;
 }
 
-.habilidades--texto {
+.sobre--texto {
   display: flex;
   align-items: center;
   justify-content: center;
