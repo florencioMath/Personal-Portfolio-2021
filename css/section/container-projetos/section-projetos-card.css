@@ -8,17 +8,16 @@
 }
 
 .projetos--titulo {
-  padding-top: 3rem;
   font-size: 1.25rem;
   text-decoration: underline;
   font-weight: bold;
-  padding: 2rem 0;
+  padding: 2rem 0 1rem 0;
   color: var(--texto-01);
 }
 
 .projetos--texto {
   text-align: center;
-  padding: 1rem 0;
+  padding-bottom: 1rem;
   color: var(--texto-01);
 }
 
@@ -37,7 +36,6 @@
   margin-bottom: 3rem;
   position: relative;
 }
-
 
 /* Adiciona o overlay nas imagens do Card */
 
@@ -63,12 +61,17 @@
 }
 
 .overlay--texto {
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: bold;
   position: absolute;
 }
 
 .overlay--texto a {
-    text-decoration: none;
-    color: var(--texto-01);
+  text-decoration: none;
+  color: var(--texto-01);
+}
+
+.overlay--texto a:hover {
+  transition: .80s;
+  font-size: 1.5rem;
 }
