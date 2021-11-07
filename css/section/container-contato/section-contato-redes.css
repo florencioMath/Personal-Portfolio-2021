@@ -1,0 +1,25 @@
+.container__contato--redes {
+  background-color: var(--texto-01);
+  border-radius: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 35%;
+}
+
+.icone-github {
+  width: 21%;
+  height: 35%;
+  background-image: url(/images/icones/icone-github.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Hoover dos Icones */
+.icone-github:hover {
+  transition: 1.5s;
+  border-radius: 1.2rem;
+  background-color: var(--frame-background2);
+}

@@ -7,30 +7,30 @@
 }
 
 .contato--titulo {
-    color: var(--texto-02);
-    align-items: center;
-    display: flex;
-    font-size: 2rem;
-    letter-spacing: 0.15rem;
-    width: 100%;
-    height: 15%;
-    justify-content: left;
-    text-align: start;
-    color: var(--texto-02);
-    font-size: 2rem;
-    letter-spacing: 0.2rem;
-    background-color: darkseagreen;
-  }
-  
-  .contato--texto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 25%;
-    width: 100%;
-    text-align: center;
-    color: var(--texto-01);
-    font-size: 1.3rem;
-    letter-spacing: 0.10rem;
-    background-color: darkred;
-  }
+  color: var(--texto-02);
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+  width: 100%;
+  height: 15%;
+  justify-content: left;
+  text-align: start;
+  color: var(--texto-02);
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  background-color: darkseagreen;
+}
+
+.contato--texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  color: var(--texto-01);
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  background-color: darkred;
+}
