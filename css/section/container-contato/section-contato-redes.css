@@ -6,13 +6,54 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  height: 35%;
+  height: 25%;
+}
+
+.contato--redes--texto {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--texto-02);
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
 }
 
 .icone-github {
   width: 21%;
   height: 35%;
   background-image: url(/images/icones/icone-github.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icone-linkedin {
+  width: 15%;
+  height: 35%;
+  background-image: url(/images/icones/icone-linkedin.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icone-twitter {
+  width: 15%;
+  height: 35%;
+  background-image: url(/images/icones/icone-twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icone-youtube {
+  width: 15%;
+  height: 35%;
+  background-image: url(/images/icones/icone-youtube.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icone-instagram {
+  width: 15%;
+  height: 35%;
+  background-image: url(/images/icones/icone-instagram.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
