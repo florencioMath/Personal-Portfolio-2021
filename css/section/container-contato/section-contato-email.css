@@ -1,0 +1,20 @@
+.container__contato--email {
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 55%;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+}
+
+.icone--email {
+    padding: 2rem 0;
+    width: 100%;
+    height: 35%;
+    background-image: url(/images/icones/icone-email.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contato__email--texto {
+    text-align: center;
+}
