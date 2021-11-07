@@ -1,6 +1,6 @@
 .container__burguer {
     cursor: pointer;
-    width: 60%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
