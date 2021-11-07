@@ -9,7 +9,7 @@
   height: 35%;
 }
 
-.icone-google {
+.habilidades--icone-google {
   display: flex;
   width: 21%;
   height: 35%;
@@ -19,7 +19,7 @@
   cursor: unset;
 }
 
-.icone-stack-overflow {
+.habilidades--icone-stack-overflow {
   width: 21%;
   height: 35%;
   background-image: url(/images/icones/icone-stack-overflow.svg);
@@ -28,7 +28,7 @@
   cursor: unset;
 }
 
-.icone-html5 {
+.habilidades--icone-html5 {
   width: 21%;
   height: 35%;
   background-image: url(/images/icones/icone-html5.svg);
@@ -36,7 +36,8 @@
   background-position: center;
   cursor: unset;
 }
-.icone-css3 {
+
+.habilidades--icone-css3 {
   width: 21%;
   height: 35%;
   background-image: url(/images/icones/icone-css3.svg);
@@ -44,7 +45,8 @@
   background-position: center;
   cursor: unset;
 }
-.icone-javascript {
+
+.habilidades--icone-javascript {
   width: 21%;
   height: 35%;
   background-image: url(/images/icones/icone-javascript.svg);
@@ -52,14 +54,16 @@
   background-position: center;
   cursor: unset;
 }
-.icone-github--habilidades {
+
+.habilidades--icone-github {
   width: 21%;
   height: 35%;
   background-image: url(/images/icones/icone-github.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
-.icone-figma {
+
+.habilidades--icone-figma {
   width: 21%;
   height: 35%;
   background-image: url(/images/icones/icone-figma.svg);
@@ -68,7 +72,7 @@
   cursor: unset;
 }
 
-.icone-git {
+.habilidades--icone-git {
   width: 21%;
   height: 35%;
   background-image: url(/images/icones/icone-git.svg);
@@ -78,49 +82,49 @@
 }
 
 /* Hoover dos Icones */
-.icone-google:hover {
+.habilidades--icone-google:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
 
-.icone-stack-overflow:hover {
+.habilidades--icone-stack-overflow:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
 
-.icone-html5:hover {
+.habilidades--icone-html5:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
 
-.icone-css3:hover {
+.habilidades--icone-css3:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
 
-.icone-javascript:hover {
+.habilidades--icone-javascript:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
 
-.icone-github--habilidades:hover {
+.habilidades--icone-github:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
 
-.icone-figma:hover {
+.habilidades--icone-figma:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
 
-.icone-git:hover {
+.habilidades--icone-git:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
