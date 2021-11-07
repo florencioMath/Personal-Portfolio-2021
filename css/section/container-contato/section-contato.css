@@ -19,7 +19,6 @@
   color: var(--texto-02);
   font-size: 2rem;
   letter-spacing: 0.2rem;
-  background-color: darkseagreen;
   padding: 2rem 0;
 }
 
@@ -33,6 +32,5 @@
   color: var(--texto-01);
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
-  background-color: darkred;
   padding: 2rem 0 3rem 0;
 }
