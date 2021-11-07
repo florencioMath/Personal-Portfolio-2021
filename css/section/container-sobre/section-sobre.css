@@ -19,7 +19,6 @@
   color: var(--texto-02);
   font-size: 2rem;
   letter-spacing: 0.2rem;
-  background-color: darkolivegreen;
 }
 
 .sobre--texto {
@@ -32,7 +31,6 @@
   color: var(--texto-01);
   font-size: 1.3rem;
   letter-spacing: 0.10rem;
-  background-color: darkslategray;
 }
 
 .container__sobre--imagem {
