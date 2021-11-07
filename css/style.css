@@ -11,13 +11,3 @@ html {
 
 /* -- SEÇÕES -- */
 
-.container__section__contato {
-  height: 91vh;
-  padding: 9vh 10% 0 10%;
-  text-align: justify;
-}
-
-.container__section__contato {
-  background-color: var(--frame-background);
-  color: var(--texto-01);
-}
