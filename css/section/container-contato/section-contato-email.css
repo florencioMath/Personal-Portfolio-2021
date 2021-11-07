@@ -20,8 +20,9 @@
 }
 
 .contato__email--texto {
-    text-align: center;
+    font-size: 1.5rem;
     color: var(--frame-background);
+    text-align: center;
 }
 
 .contato__email--formulario {
@@ -36,7 +37,7 @@ label, input, textarea {
 
 .email__formulario--label {
     color: var(--frame-background);
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .email__formulario--input {
