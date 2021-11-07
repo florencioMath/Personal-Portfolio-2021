@@ -25,7 +25,7 @@
   padding: 2rem 0;
 }
 
-.icone-github {
+.contato--icone-github {
   width: 15%;
   height: 35%;
   background-image: url(/images/icones/icone-github.svg);
@@ -33,7 +33,7 @@
   background-position: center;
 }
 
-.icone-linkedin {
+.contato--icone-linkedin {
   width: 15%;
   height: 35%;
   background-image: url(/images/icones/icone-linkedin.svg);
@@ -41,7 +41,7 @@
   background-position: center;
 }
 
-.icone-twitter {
+.contato--icone-twitter {
   width: 15%;
   height: 35%;
   background-image: url(/images/icones/icone-twitter.svg);
@@ -49,14 +49,15 @@
   background-position: center;
 }
 
-.icone-youtube {
+.contato--icone-youtube {
   width: 15%;
   height: 35%;
   background-image: url(/images/icones/icone-youtube.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
-.icone-instagram {
+
+.contato--icone-instagram {
   width: 15%;
   height: 35%;
   background-image: url(/images/icones/icone-instagram.svg);
@@ -65,27 +66,31 @@
 }
 
 /* Hoover dos Icones */
-.icone-github:hover {
+.contato--icone-github:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
-.icone-linkedin:hover {
+
+.contato--icone-linkedin:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
-.icone-twitter:hover {
+
+.contato--icone-twitter:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
-.icone-youtube:hover {
+
+.contato--icone-youtube:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
 }
-.icone-instagram:hover {
+
+.contato--icone-instagram:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
