@@ -1,0 +1,22 @@
+footer {
+  background-color: var(--frame-background);
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+.footer--texto {
+  color: var(--texto-01);
+  font-size: 1rem;
+}
+
+.footer--texto a {
+    color: var(--texto-01);
+    text-decoration: none;
+}
+
+.footer--texto a:hover {
+    color: var(--texto-02);
+}
