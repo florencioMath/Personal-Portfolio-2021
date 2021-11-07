@@ -52,7 +52,7 @@
   background-position: center;
   cursor: unset;
 }
-.icone-github {
+.icone-github--habilidades {
   width: 21%;
   height: 35%;
   background-image: url(/images/icones/icone-github.svg);
@@ -108,7 +108,7 @@
   background-color: var(--frame-background2);
 }
 
-.icone-github:hover {
+.icone-github--habilidades:hover {
   transition: 1.5s;
   border-radius: 1.2rem;
   background-color: var(--frame-background2);
