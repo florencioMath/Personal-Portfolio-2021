@@ -18,6 +18,7 @@
 
 .contato__email--texto {
     text-align: center;
+    color: var(--texto-01);
 }
 
 .contato__email--formulario {
@@ -25,4 +26,34 @@
     background-color: darkorange;
     display: flex;
     flex-direction: column;
+}
+
+label, input, textarea {
+    margin-top: .5rem;
+}
+
+.email__formulario--input {
+    color: var(--texto-01);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.email__formulario--label {
+    background-color: tomato;
+    height: 2rem;
+}
+
+.email__formulario--textarea {
+    background-color: tomato;
+    height: 5rem;
+}
+
+.email--botao {
+    align-self: center;
+    background-color: var(--texto-02);
+    border-color: var(--texto-02);
+    border-radius: 2rem;
+    color: var(--texto-01);
+    height: 2.5rem;
+    width: 8rem;
 }
