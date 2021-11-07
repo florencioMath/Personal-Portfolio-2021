@@ -230,8 +230,16 @@
     <div class="container__contato--email">
       <div class="icone--email"></div>
       <p class="contato__email--texto">Que tal um e-mail?</p>
-        
+      <form action="mailto:matheusflorencio@outlook.com" method="post" class="contato__email--formulario">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu E-mail" required>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="20" rows="5" placeholder="Deixe uma mensagem" required></textarea>
+        <input type="submit" value="Enviar" class="email--botao">
       </form>
+      
     </div>
   </section>
 

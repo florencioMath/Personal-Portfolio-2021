@@ -2,8 +2,9 @@
     background-color: darkolivegreen;
     width: 100%;
     height: 55%;
-    margin-bottom: 2rem;
-    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .icone--email {
@@ -17,4 +18,11 @@
 
 .contato__email--texto {
     text-align: center;
+}
+
+.contato__email--formulario {
+    padding: 2rem 1rem;
+    background-color: darkorange;
+    display: flex;
+    flex-direction: column;
 }
