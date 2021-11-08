@@ -5,8 +5,15 @@
     flex-direction: row-reverse;
   }
 
+  .section__home--titulo {
+    font-size: 2.5rem;
+    width: 100%;
+    padding-top: 2rem;
+  }
+
   .section__home--texto {
-      width: 50%;
+    width: 50%;
+    font-size: 2rem;
   }
 
   .container__callToAction {
