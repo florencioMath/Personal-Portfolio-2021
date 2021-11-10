@@ -12,22 +12,21 @@
     margin-right: 50%;
     height: 50%;
     padding-top: 2rem;
-    background-color: darkorange;
   }
 
   .section__home--texto {
     width: 50%;
     height: 40%;
     font-size: 2rem;
-    background-color: darkgreen;
     margin: 0;
   }
 
   .container__callToAction {
     width: 50%;
+    padding-top: 5%;
     margin: 0;
-    background-color: darkmagenta;
   }
+
 }
 
 @media screen and (min-width: 1024px) {
