@@ -3,22 +3,29 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    height: 91vh;
   }
 
   .section__home--titulo {
     font-size: 2.5rem;
     width: 100%;
+    height: 50%;
     padding-top: 2rem;
+    background-color: darkorange;
   }
 
   .section__home--texto {
     width: 50%;
+    height: 40%;
     font-size: 2rem;
+    background-color: darkgreen;
+    margin: 0;
   }
 
   .container__callToAction {
     width: 50%;
-    padding-top: 5rem;
+    margin: 0;
+    background-color: darkmagenta;
   }
 }
 
