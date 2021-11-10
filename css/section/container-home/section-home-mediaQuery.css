@@ -8,7 +8,8 @@
 
   .section__home--titulo {
     font-size: 2.5rem;
-    width: 100%;
+    width: 50%;
+    margin-right: 50%;
     height: 50%;
     padding-top: 2rem;
     background-color: darkorange;
