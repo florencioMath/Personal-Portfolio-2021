@@ -1,24 +1,16 @@
 @media screen and (min-width: 1024px) {
-    .container__section__projetos {
-
-    }
-
     .container__projetos--card {
         display: flex;
         flex-direction: row;
         width: 100%;
         flex-wrap: wrap;
-        background-color: brown;
-        border: 5px solid black;
     }
 
     .projetos--titulo {
-        background-color: blue;
         width: 50%;
     }
 
     .projetos--texto {
-        background-color: chocolate;
         width: 50%;
     }
       
