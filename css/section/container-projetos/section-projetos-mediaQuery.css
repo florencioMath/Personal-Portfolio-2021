@@ -1,3 +1,17 @@
-@media screen and (min-width: 768px) {
-    
+@media screen and (min-width: 1024px) {
+    .container__section__projetos {
+
+    }
+
+    .container__projetos--card {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        background-color: brown;
+        border: 5px solid black;
+    }
+
+    .projetos--imagem {
+        width: 50%;
+    }
 }
