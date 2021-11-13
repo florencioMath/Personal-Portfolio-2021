@@ -1,33 +1,23 @@
 @media screen and (min-width: 1024px) {
   .container__projetos--card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 15%;
-  }
-
-  .container__projetos--card {
     background-color: darkolivegreen;
   }
 
   .projetos--titulo {
-      align-self: flex-start;
+    align-self: flex-start;
     width: 50%;
-    height: 100%;
     background-color: darkorange;
   }
 
   .projetos--texto {
-      align-self: flex-start;
+    align-self: flex-start;
+    align-items: center;
     width: 50%;
-    height: 100%;
     background-color: darkorchid;
   }
 
   .projetos--imagem {
-      align-self: flex-end;
+    align-self: flex-end;
     width: 50%;
   }
 }
