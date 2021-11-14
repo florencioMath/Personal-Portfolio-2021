@@ -12,16 +12,15 @@
     background-color: blueviolet;
     border: 1px solid black;
     margin: 0;
+    width: 50%;
   }
 
   .projetos--titulo {
     background-color: darkkhaki;
-    height: 50%;
   }
 
   .projetos--texto {
     background-color: darksalmon;
-    height: 50%;
   }
 
   .projetos--imagem {
