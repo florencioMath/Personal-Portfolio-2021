@@ -1,26 +1,15 @@
 @media screen and (min-width: 1024px) {
   .container__projetos--card {
-    background-color: darkolivegreen;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid darkred;
     padding: 2rem;
   }
 
   .container__projetos--titulo--texto {
-    background-color: blueviolet;
-    border: 1px solid black;
+
     margin: 0;
     width: 50%;
-  }
-
-  .projetos--titulo {
-    background-color: darkkhaki;
-  }
-
-  .projetos--texto {
-    background-color: darksalmon;
   }
 
   .projetos--imagem {
