@@ -2,23 +2,31 @@
   .container__projetos--card {
     background-color: darkolivegreen;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid darkred;
+    padding: 2rem;
   }
 
   .teste {
     background-color: blueviolet;
-    align-self: flex-start;
     border: 1px solid black;
-    width: 40%;
+    margin: 0;
   }
 
   .projetos--titulo {
+    background-color: darkkhaki;
+    height: 50%;
   }
 
   .projetos--texto {
+    background-color: darksalmon;
+    height: 50%;
   }
 
   .projetos--imagem {
-    align-self: flex-end;
-    width: 40%;
+    align-self: center;
+    width: 50%;
+    margin-bottom: 0;
   }
 }
