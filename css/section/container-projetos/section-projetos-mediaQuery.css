@@ -1,22 +1,24 @@
 @media screen and (min-width: 1024px) {
   .container__projetos--card {
     background-color: darkolivegreen;
+    flex-direction: row;
+  }
+
+  .teste {
+    background-color: blueviolet;
+    align-self: flex-start;
+    border: 1px solid black;
+    width: 40%;
   }
 
   .projetos--titulo {
-    align-self: flex-start;
-    background-color: darkorange;
-    width: 50%;
   }
 
   .projetos--texto {
-    align-self: flex-start;
-    width: 50%;
-    background-color: darkorchid;
   }
 
   .projetos--imagem {
     align-self: flex-end;
-    width: 50%;
+    width: 40%;
   }
 }
