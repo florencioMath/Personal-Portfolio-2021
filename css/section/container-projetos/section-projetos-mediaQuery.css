@@ -7,9 +7,21 @@
   }
 
   .container__projetos--titulo--texto {
-
+    background-color: darkgrey;
     margin: 0;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18rem;
+  }
+
+  .projetos--titulo {
+    background-color: darkkhaki;
+  }
+
+  .projetos--texto {
+    background-color: darkmagenta;
   }
 
   .projetos--imagem {
