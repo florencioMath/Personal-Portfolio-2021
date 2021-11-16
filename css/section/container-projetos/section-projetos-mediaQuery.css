@@ -1,9 +1,9 @@
 @media screen and (min-width: 1024px) {
   .container__projetos--card {
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
-    padding: 2rem;
+    padding-bottom: 2rem;
   }
 
   .container__projetos--titulo--texto {
@@ -13,15 +13,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 18rem;
   }
 
   .projetos--titulo {
     background-color: darkkhaki;
+    width: 100%;
+    height: 35%;
   }
 
   .projetos--texto {
     background-color: darkmagenta;
+    height: 50%;
+    align-content: flex-end;
+    width: 100%;
   }
 
   .projetos--imagem {
