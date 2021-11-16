@@ -24,7 +24,9 @@
   .projetos--texto {
     background-color: darkmagenta;
     height: 50%;
-    align-content: flex-end;
+    text-align: right;
+    display: flex;
+    align-items: center;
     width: 100%;
   }
 
