@@ -12,6 +12,8 @@
   font-weight: bold;
   padding: 2rem 0 1rem 0;
   color: var(--texto-01);
+  font-size: 1.5rem;
+  letter-spacing: .10rem;
 }
 
 .projetos--texto {
