@@ -3,7 +3,8 @@
     flex-direction: row;
     align-items: stretch;
     justify-content: space-between;
-    padding-bottom: 2rem;
+    padding: 3rem 0;
+    background-color: darkgreen;
   }
 
   .container__projetos--titulo--texto {
