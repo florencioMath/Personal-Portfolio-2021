@@ -4,7 +4,10 @@
     align-items: stretch;
     justify-content: space-between;
     padding: 3rem 0;
-    background-color: darkgreen;
+  }
+
+  .card--esquerda {
+    flex-direction: row-reverse;
   }
 
   .container__projetos--titulo--texto {
@@ -31,6 +34,11 @@
     width: 100%;
     font-size: 1.5rem;
     letter-spacing: .10rem;
+  }
+
+  .texto--esquerda {
+    text-align: left;
+    padding-left: 2rem;
   }
 
   .projetos--imagem {
