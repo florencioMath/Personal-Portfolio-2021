@@ -3,16 +3,16 @@
         flex-wrap: wrap;
         display: flex;
         justify-content: space-between;
+        padding-bottom: 2rem;
     }
 
     .sobre--texto {
-        background-color: darkolivegreen;
         height: 80%;
         width: 50%;
+        text-align: right;
     }
 
     .container__sobre--imagem {
-        background-color: darkorange;
         height: 80%;
         width: 50%;
     }
