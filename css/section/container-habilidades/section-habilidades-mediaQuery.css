@@ -5,14 +5,14 @@
         flex-direction: column;
     }
     .habilidades--texto {
-        background-color: darkgreen;
         width: 50%;
         display: flex;
         align-self: end;
+        text-align: left;
     }
 
     .container__habilidades--icones {
-        background-color: darkgrey;
         width: 50%;
+        margin-bottom: 3rem;
     }
 }
