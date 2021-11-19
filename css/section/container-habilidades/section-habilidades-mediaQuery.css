@@ -1,14 +1,14 @@
 @media screen and (min-width: 1024px) {
+    .container__section__habilidades {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
     .habilidades--texto {
         background-color: darkgreen;
-        width: 100%;
+        width: 50%;
         display: flex;
-    }
-
-    .habilidades--texto p {
-        align-self: flex-end;
-        text-align: end;
-        background-color: red;
+        align-self: end;
     }
 
     .container__habilidades--icones {
