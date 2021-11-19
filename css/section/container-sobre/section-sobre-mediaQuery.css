@@ -1,0 +1,20 @@
+@media screen and (min-width: 1024px) {
+    .container__section__sobre {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sobre--texto {
+        background-color: darkolivegreen;
+        height: 80%;
+        width: 50%;
+    }
+
+    .container__sobre--imagem {
+        background-color: darkorange;
+        height: 80%;
+        width: 50%;
+    }
+    
+}
