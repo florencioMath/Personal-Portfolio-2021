@@ -1,3 +1,18 @@
 @media screen and (min-width: 1024px) {
-    
+    .habilidades--texto {
+        background-color: darkgreen;
+        width: 100%;
+        display: flex;
+    }
+
+    .habilidades--texto p {
+        align-self: flex-end;
+        text-align: end;
+        background-color: red;
+    }
+
+    .container__habilidades--icones {
+        background-color: darkgrey;
+        width: 50%;
+    }
 }
