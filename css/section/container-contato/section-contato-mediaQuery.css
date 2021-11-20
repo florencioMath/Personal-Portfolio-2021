@@ -1,3 +1,28 @@
 @media screen and (min-width: 1024px) {
-    
+    .container__section__contato {
+        background-color: darksalmon;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 3rem;
+    }
+    .contato--titulo {
+        background-color: darkslateblue;
+    }
+
+    .contato--texto {
+        background-color: darkgreen;
+        width: 40%;
+    }
+    .container__contato--redes {
+        background-color: darkmagenta;
+        width: 40%;
+    }
+
+    .container__contato--email {
+        background-color: darkred;
+        height: 50%;
+        width: 80%;
+    }
 }
