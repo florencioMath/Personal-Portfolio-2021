@@ -23,18 +23,22 @@
     width: 90%;
   }
 
+  .container__contato--email {
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+
   .icone--email {
-    background-color: darksalmon;
     width: 20%;
+    align-self: flex-end;
   }
 
   .contato__email--texto {
-    background-color: darkseagreen;
     width: 20%;
+    align-self: flex-end;
   }
 
   .contato__email--formulario {
-    background-color: firebrick;
     width: 60%;
   }
 }
