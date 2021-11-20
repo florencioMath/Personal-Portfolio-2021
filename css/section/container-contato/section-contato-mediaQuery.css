@@ -11,16 +11,30 @@
   }
 
   .contato--texto {
-    width: 45%;
+    width: 50%;
     align-self: center;
     text-align: right;
   }
   .container__contato--redes {
-    width: 50%;
+    width: 45%;
   }
 
   .container__contato--email {
-    height: 50%;
-    width: 80%;
+    width: 90%;
+  }
+
+  .icone--email {
+    background-color: darksalmon;
+    width: 20%;
+  }
+
+  .contato__email--texto {
+    background-color: darkseagreen;
+    width: 20%;
+  }
+
+  .contato__email--formulario {
+    background-color: firebrick;
+    width: 60%;
   }
 }
