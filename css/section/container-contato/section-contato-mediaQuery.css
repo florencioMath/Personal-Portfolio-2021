@@ -20,7 +20,6 @@
   }
 
   .container__contato--email {
-    flex-direction: row;
     width: 90%;
     background-color: darkgray;
   }
@@ -28,11 +27,14 @@
   .icone--email {
     width: 20%;
     background-color: darkorange;
+    margin: 0;
+    align-self: flex-end;
   }
 
   .contato__email--texto {
     width: 20%;
     background-color: darkkhaki;
+    align-self: flex-end;
   }
 
   .contato__email--formulario {
