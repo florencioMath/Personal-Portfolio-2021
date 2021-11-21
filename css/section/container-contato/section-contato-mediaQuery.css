@@ -21,13 +21,11 @@
 
   .container__contato--email {
     width: 90%;
-    background-color: darkgray;
     flex-direction: row-reverse;
   }
 
   .container__contato__icone--email {
-    background-color: darkolivegreen;
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,17 +35,14 @@
   .icone--email {
     width: 50%;
     height: 10%;
-    background-color: darkorange;
     margin: 0;
   }
 
   .contato__email--texto {
     width: 60%;
-    background-color: darkkhaki;
   }
 
   .contato__email--formulario {
-    width: 70%;
-    background-color: darkmagenta;
+    width: 60%;
   }
 }
