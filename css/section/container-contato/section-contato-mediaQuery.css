@@ -45,4 +45,7 @@
   .contato__email--formulario {
     width: 60%;
   }
+  .email--botao--form {
+    display: none;
+  }
 }

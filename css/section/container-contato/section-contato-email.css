@@ -58,6 +58,11 @@ label, input, textarea {
 }
 
 .email--botao {
+    display: none;
+}
+
+.email--botao--form {
+
     align-self: center;
     background-color: var(--texto-02);
     border-color: var(--texto-02);
@@ -66,4 +71,4 @@ label, input, textarea {
     font-size: 1rem;
     height: 2.5rem;
     width: 8rem;
-}
+  }
