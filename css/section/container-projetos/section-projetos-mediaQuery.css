@@ -6,6 +6,10 @@
     padding: 3rem 0;
   }
 
+  .section__projetos--titulo {
+    font-size: 3rem;
+  }
+
   .card--esquerda {
     flex-direction: row-reverse;
   }
@@ -33,7 +37,7 @@
     text-align: right;
     width: 100%;
     font-size: 1.5rem;
-    letter-spacing: .10rem;
+    letter-spacing: .05rem;
   }
 
   .texto--esquerda {
