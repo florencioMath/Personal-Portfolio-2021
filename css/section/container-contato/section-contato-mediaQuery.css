@@ -7,6 +7,7 @@
     padding-bottom: 3rem;
   }
   .contato--titulo {
+    font-size: 3rem;
     margin-bottom: 2rem;
   }
 
@@ -14,6 +15,8 @@
     width: 50%;
     align-self: center;
     text-align: right;
+    font-size: 1.5rem;
+    letter-spacing: 0.105rem;
   }
   .container__contato--redes {
     width: 45%;
