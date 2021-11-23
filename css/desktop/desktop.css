@@ -1,33 +1,32 @@
 /* -- Criado para a visualização Desktop --*/
 @media screen and (min-width: 1024px) {
-    .container__burguer {
-        display: none;
-    }
+  .container__burguer {
+    display: none;
+  }
 
-    .container__links {
-        position        : relative;
-        top             : unset;
-        height          : 9vh;
-        display         : flex;
-        align-items     : center;
-        width           : 60%;
-        transform       : unset;
-    }
+  .container__links {
+    position: relative;
+    top: unset;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    transform: unset;
+  }
 
-    .container__links ul {
-        height: unset;
-        flex-direction  : row;
-        width: 100%;
-    }
+  .container__links ul {
+    height: unset;
+    flex-direction: row;
+    width: 100%;
+  }
 
-    .container__links li {
-        opacity         : unset;
-        cursor: unset;
-        width: unset;
-    }
+  .container__links li {
+    opacity: unset;
+    cursor: unset;
+    width: unset;
+  }
 
-    .container__links a {
-        padding: 0;
-    }
-
+  .container__links a {
+    padding: 0;
+  }
 }
