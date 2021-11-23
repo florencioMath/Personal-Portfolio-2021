@@ -7,7 +7,7 @@
   }
 
   .section__home--titulo {
-    font-size: 2.5rem;
+    font-size: 3rem;
     width: 50%;
     margin-right: 50%;
     height: 50%;
@@ -17,7 +17,7 @@
   .section__home--texto {
     width: 50%;
     height: 40%;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 0;
   }
 
