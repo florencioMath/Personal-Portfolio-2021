@@ -1,24 +1,24 @@
 .container__contato--redes {
+  align-items: center;
   background-color: var(--texto-01);
   border-radius: 1.2rem;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
   height: 35%;
+  justify-content: space-evenly;
   padding: 2rem 0;
+  width: 100%;
 }
 
 .contato--redes--texto {
-  width: 100%;
-  display: flex;
   align-items: center;
-  justify-content: center;
   color: var(--texto-02);
+  display: flex;
   font-size: 1.2rem;
+  justify-content: center;
   letter-spacing: 0.1rem;
   padding: 1rem 0 2rem 0;
+  width: 100%;
 }
 
 .container__contato--redes a {
@@ -26,72 +26,72 @@
 }
 
 .contato--icone-github {
-  width: 15%;
-  height: 35%;
   background-image: url(/images/icones/icone-github.svg);
   background-repeat: no-repeat;
   background-position: center;
+  height: 35%;
+  width: 15%;
 }
 
 .contato--icone-linkedin {
-  width: 15%;
-  height: 35%;
   background-image: url(/images/icones/icone-linkedin.svg);
   background-repeat: no-repeat;
   background-position: center;
+  height: 35%;
+  width: 15%;
 }
 
 .contato--icone-twitter {
-  width: 15%;
-  height: 35%;
   background-image: url(/images/icones/icone-twitter.svg);
   background-repeat: no-repeat;
   background-position: center;
+  height: 35%;
+  width: 15%;
 }
 
 .contato--icone-youtube {
-  width: 15%;
-  height: 35%;
   background-image: url(/images/icones/icone-youtube.svg);
   background-repeat: no-repeat;
   background-position: center;
+  height: 35%;
+  width: 15%;
 }
 
 .contato--icone-instagram {
-  width: 15%;
-  height: 35%;
   background-image: url(/images/icones/icone-instagram.svg);
   background-repeat: no-repeat;
   background-position: center;
+  height: 35%;
+  width: 15%;
 }
 
 /* Hoover dos Icones */
 .contato--icone-github:hover {
-  transition: 1.5s;
-  border-radius: 1.2rem;
   background-color: var(--frame-background2);
+  border-radius: 1.2rem;
+  transition: 1.5s;
 }
 
 .contato--icone-linkedin:hover {
-  transition: 1.5s;
-  border-radius: 1.2rem;
   background-color: var(--frame-background2);
+  border-radius: 1.2rem;
+  transition: 1.5s;
 }
 
 .contato--icone-twitter:hover {
-  transition: 1.5s;
-  border-radius: 1.2rem;
   background-color: var(--frame-background2);
+  border-radius: 1.2rem;
+  transition: 1.5s;
 }
 
 .contato--icone-youtube:hover {
-  transition: 1.5s;
-  border-radius: 1.2rem;
   background-color: var(--frame-background2);
+  border-radius: 1.2rem;
+  transition: 1.5s;
 }
 
 .contato--icone-instagram:hover {
-  transition: 1.5s;
-  border-radius: 1.2rem;
   background-color: var(--frame-background2);
+  border-radius: 1.2rem;
+  transition: 1.5s;
 }
