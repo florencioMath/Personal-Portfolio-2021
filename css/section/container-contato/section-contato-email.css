@@ -1,73 +1,75 @@
 .container__contato--email {
-    background-color: var(--texto-01);
-    border-radius: 1.2rem;
-    width: 100%;
-    height: 55%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 2rem;
+  background-color: var(--texto-01);
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 100%;
 }
 
 .icone--email {
-    margin-top: 2rem;
-    padding: 2rem 0;
-    width: 100%;
-    height: 35%;
-    background-image: url(/images/icones/icone-email.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url(/images/icones/icone-email.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35%;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  width: 100%;
 }
 
 .contato__email--texto {
-    font-size: 1.5rem;
-    color: var(--frame-background);
-    text-align: center;
+  color: var(--frame-background);
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .contato__email--formulario {
-    padding: 2rem 1rem;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
 }
 
-label, input, textarea {
-    margin-top: .5rem;
+label,
+input,
+textarea {
+  margin-top: 0.5rem;
 }
 
 .email__formulario--label {
-    color: var(--frame-background);
-    font-size: 1rem;
+  color: var(--frame-background);
+  font-size: 1rem;
 }
 
 .email__formulario--input {
-    background-color: var(--texto-01);
-    border-radius: .5rem;
-    font-size: 1rem;
-    height: 2rem;
-    letter-spacing: 0.1rem;
-    padding: .2rem;
+  background-color: var(--texto-01);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  height: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 0.2rem;
 }
 
 .email__formulario--textarea {
-    background-color: var(--texto-01);
-    border-radius: .5rem;
-    font-size: 1rem;
-    height: 4rem;
-    padding: .4rem;
+  background-color: var(--texto-01);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  height: 4rem;
+  padding: 0.4rem;
 }
 
 .email--botao {
-    display: none;
+  display: none;
 }
 
 .email--botao--form {
-    align-self: center;
-    background-color: var(--texto-02);
-    border-color: var(--texto-02);
-    border-radius: .5rem;
-    color: var(--texto-01);
-    font-size: 1rem;
-    height: 2.5rem;
-    width: 8rem;
-  }
+  align-self: center;
+  background-color: var(--texto-02);
+  border-color: var(--texto-02);
+  border-radius: 0.5rem;
+  color: var(--texto-01);
+  font-size: 1rem;
+  height: 2.5rem;
+  width: 8rem;
+}
