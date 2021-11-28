@@ -1,9 +1,9 @@
 @media screen and (min-width: 1024px) {
   .container__section__contato {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     padding-bottom: 3rem;
   }
   .contato--titulo {
@@ -12,33 +12,33 @@
   }
 
   .contato--texto {
-    width: 50%;
     align-self: center;
-    text-align: right;
     font-size: 1.5rem;
     letter-spacing: 0.105rem;
+    text-align: right;
+    width: 50%;
   }
   .container__contato--redes {
     width: 45%;
   }
 
   .container__contato--email {
-    width: 90%;
     flex-direction: row-reverse;
+    width: 90%;
   }
 
   .container__contato__icone--email {
-    width: 40%;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    width: 40%;
   }
 
   .icone--email {
-    width: 50%;
     height: 10%;
     margin: 0;
+    width: 50%;
   }
 
   .contato__email--texto {
@@ -49,18 +49,18 @@
     width: 60%;
   }
   .email--botao {
-    display: unset;
     align-self: center;
     background-color: var(--texto-02);
     border-color: var(--texto-02);
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     color: var(--texto-01);
+    display: unset;
     font-size: 1rem;
     height: 2.5rem;
     width: 8rem;
   }
 
-.email--botao--form {
-  display: none;
-}
+  .email--botao--form {
+    display: none;
+  }
 }
