@@ -1,25 +1,25 @@
 @media screen and (min-width: 1024px) {
   .container__section__habilidades {
-    justify-content: space-between;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .habilidades--titulo {
-      font-size: 3rem;
+    font-size: 3rem;
   }
 
   .habilidades--texto {
-    width: 50%;
-    display: flex;
     align-self: end;
-    text-align: left;
+    display: flex;
     font-size: 1.5rem;
-    letter-spacing: .05rem;
+    letter-spacing: 0.05rem;
+    text-align: left;
+    width: 50%;
   }
 
   .container__habilidades--icones {
-    width: 50%;
     margin-bottom: 3rem;
+    width: 50%;
   }
 }
