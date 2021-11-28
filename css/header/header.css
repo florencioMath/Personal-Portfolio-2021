@@ -1,23 +1,22 @@
 header {
-    background-color: var(--frame-background);
-    height: 9vh;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-  }
-  
-  header a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 1.5em;
-  }
-  
-  header a:hover {
-    text-decoration: underline darkslategray;
-    color: dimgray;
-  }
+  align-items: center;
+  background-color: var(--frame-background);
+  display: flex;
+  height: 9vh;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 
+header a {
+  color: whitesmoke;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: dimgray;
+  text-decoration: underline darkslategray;
+}
