@@ -5,7 +5,7 @@
 }
 
 .logo {
-  background-image: url(https://raw.githubusercontent.com/1matheusflorencio/Pessoal-Portfolio/653abdd819b898d138019db5be0965c54fd02a63/images/logo/logo-matheusflorencio.svg);
+  background-image: url("https://raw.githubusercontent.com/1matheusflorencio/Pessoal-Portfolio/653abdd819b898d138019db5be0965c54fd02a63/images/logo/logo-matheusflorencio.svg");
   /* background-image: url(../images/logo/logo-matheusflorencio.svg); */
   background-position: center;
   background-size: 100%;
