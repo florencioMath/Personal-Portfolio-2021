@@ -73,7 +73,7 @@
 }
 
 .habilidades--icone-git {
-  background-image: url(/images/icones/icone-git.svg);
+  background-image: url(https://raw.githubusercontent.com/1matheusflorencio/Pessoal-Portfolio/76946bc3df7b299ebbbe927c6ef9d541f084f9a6/images/icones/icone-git.svg);
   background-repeat: no-repeat;
   background-position: center;
   cursor: unset;
