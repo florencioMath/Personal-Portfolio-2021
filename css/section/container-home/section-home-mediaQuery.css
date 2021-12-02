@@ -1,10 +1,10 @@
+/* -- Tablet -- */
 @media screen and (min-width: 768px) {
   .container__section__home {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     height: 91vh;
-    background-color: darkgreen;
   }
 
   .section__home--titulo {
@@ -30,33 +30,13 @@
 
 }
 
+/* -- Desktop -- */
 @media screen and (min-width: 1024px) {
-  .container__section__home {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    height: 91vh;
-    background-color: salmon;
-  }
-
   .section__home--titulo {
     font-size: 3rem;
-    height: 50%;
-    margin-right: 50%;
-    padding-top: 2rem;
-    width: 50%;
   }
 
   .section__home--texto {
     font-size: 2.5rem;
-    height: 40%;
-    margin: 0;
-    width: 50%;
-  }
-
-  .container__callToAction {
-    margin: 0;
-    padding-top: 5%;
-    width: 50%;
   }
 }
