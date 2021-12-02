@@ -54,55 +54,11 @@
 
 
 @media screen and (min-width: 1024px) {
-  .container__projetos--card {
-    align-items: stretch;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 3rem 0;
-  }
-
-  .section__projetos--titulo {
-    font-size: 2.5rem;
-  }
-
-  .card--esquerda {
-    flex-direction: row-reverse;
-  }
-
-  .container__projetos--titulo--texto {
-    margin: 0;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-right: 1rem;
-    width: 50%;
-  }
-
   .projetos--titulo {
     font-size: 2rem;
-    height: 35%;
-    letter-spacing: 0.1rem;
-    padding: 0;
-    width: 100%;
   }
 
   .projetos--texto {
     font-size: 1.5rem;
-    height: 50%;
-    letter-spacing: 0.05rem;
-    text-align: right;
-    width: 100%;
-  }
-
-  .texto--esquerda {
-    padding-left: 2rem;
-    text-align: left;
-  }
-
-  .projetos--imagem {
-    align-self: center;
-    margin-bottom: 0;
-    width: 50%;
   }
 }
