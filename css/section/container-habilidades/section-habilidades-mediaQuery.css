@@ -1,3 +1,31 @@
+@media screen and (min-width: 768px) {
+  .container__section__habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .habilidades--titulo {
+    font-size: 3rem;
+  }
+
+  .habilidades--texto {
+    align-self: end;
+    display: flex;
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    text-align: left;
+    width: 50%;
+  }
+
+  .container__habilidades--icones {
+    margin-bottom: 3rem;
+    width: 50%;
+  }
+}
+
+
+
 @media screen and (min-width: 1024px) {
   .container__section__habilidades {
     display: flex;
