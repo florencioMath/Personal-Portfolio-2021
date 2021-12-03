@@ -1,11 +1,14 @@
 @media screen and (min-width: 768px) {
-  @media screen and (min-width: 1024px) {
     .container__section__sobre {
       background-color: darkgreen;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       padding-bottom: 2rem;
+    }
+
+    .sobre--titulo {
+      font-size: 2.5rem;
     }
   
     .sobre--texto {
@@ -18,7 +21,6 @@
       height: 80%;
       width: 50%;
     }
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -27,6 +29,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 2rem;
+  }
+
+  .sobre--titulo {
+    font-size: 3rem;
   }
 
   .sobre--texto {
