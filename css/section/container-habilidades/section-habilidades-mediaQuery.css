@@ -6,7 +6,7 @@
   }
 
   .habilidades--titulo {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .habilidades--texto {
@@ -25,6 +25,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .habilidades--titulo {
+    font-size: 3rem;
+  }
+  
   .habilidades--texto {
     font-size: 1.5rem;
   }
