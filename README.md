@@ -1,4 +1,4 @@
-<h1 align="center" id="inicio">Pessoal - Página de Portfólio</h1>
+<h1 align="center" id="inicio">Alura - Challenge Front End II</h1>
 
 ## Seções do README
 <ul>
@@ -11,7 +11,7 @@
 ## <a id="projeto">💻 Projeto</a>
 
 <p align="justify">
-Olá, esse projeto faz parte do Alura Challenge, o objetivo aqui é simular o papel de um desenvolvedor Front-End em uma empresa e para isso temos o desafio de desenvolver uma plataforma onde poderemos editar um trecho de código e posta-lo em rede social, essa plataforma a ser desenvolvida deverá ser responsiva e escalável.
+  Olá, esse projeto foi feito para substituir o meu portfolio antigo - o qual pode ser visto no GitHub pages clicando <a href="https://1matheusflorencio.github.io/Pessoal-Portfolio-Antigo/" target="_blank">aqui</a> e você também pode olhar o projeto completo aqui: <a href="https://github.com/1matheusflorencio/Pessoal-Portfolio-Antigo" target="_blank">Github</a>.<br>
 </p>
 
 ## <a id="tecnologias">🚀 Tecnologias</a>
@@ -22,12 +22,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS3
 - JAVASCRIPT
 - FIGMA
-- HIGHLIGH.JS
 
 ## <a id="layout">🔖 Layout</a>
 
+Em 🏗👷‍♂️ - De uma olhada em como está ficando a página no <a href="https://1matheusflorencio.github.io/Pessoal-Portfolio/" target="_blank">Github</a>.<br>
+
 Layout:
-<!-- 
 <div align="center">
 <table style>
   <tr>
@@ -101,7 +101,7 @@ Layout:
     </td>
   </tr>
 </table>  </div>
--->
+
 ---
 
 ## <a id="devs">👩‍💻 Devs</a> 
